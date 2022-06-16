@@ -13,9 +13,9 @@ sports = [
    ];
    fruits = [];
 
-   summer_sports = sports.slice([5],[11]); 
+   summer_sports = sports.slice(5,11); 
 
-   winter_sports = sports.slice([0],[5]);  
+   winter_sports = sports.slice(0,5);  
 
    fruits.push(summer_sports.splice(2,2));
 
